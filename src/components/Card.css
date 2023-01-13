@@ -1,0 +1,46 @@
+.card {
+    
+    
+    display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+  gap:15px;
+
+  justify-content: center;
+   
+  }
+  .card > article{
+  
+  
+  border:none;
+  box-shadow: 2px 2px 6px 0px rgb(0, 0, 0,0.3);
+  border-radius: 25px;
+  text-align: center;
+  width: 250px;
+  transition:  0.3s;
+  background: rgb(255, 255, 255);
+  }
+
+  .card > article:hover{
+  
+  
+   
+    box-shadow: 2px 2px 6px 0px rgb(0, 0, 0,0.3);
+    border-radius: 25px;
+    text-align: center;
+    width: 270px;
+    transition:  0.3s;
+  background: rgb(195, 248, 168);
+    }
+  .card .image {
+    width: 20%;
+  }
+  .card .image  {
+    width: 100%;
+    border-radius: 10%;
+  }
+
+  
+  .user-info * {
+    display: block;
+    padding: 0 10px;
+  }
